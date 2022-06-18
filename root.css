@@ -63,12 +63,51 @@ main{
     min-height: 100vh;
     
 }
-
+/*MEDIA HEADER INICIO*/
 @media screen and (max-width:1250px){
     .left-header h1{
         font-size: 24px;
     }
-    .nav ul li a {
-
+    header a{
+        font-size: 14px;
     }
 }
+@media screen and (max-width:1100px){
+    .left-header h1{
+        font-size: 22px;
+    }
+    header a{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:990px){
+    .left-header h1{
+        font-size: 20px;
+    }
+    header a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:863px){
+    .left-header h1{
+        font-size: 16px;
+    }
+    header a{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:790px){
+    .left-header h1{
+        font-size: 14px;
+    }
+    header a{
+        font-size: 9px;
+    }
+    .left-header img {
+        width: 45px;
+    }
+}
+
+/*MEDIA HEADER FIM*/
+
+
