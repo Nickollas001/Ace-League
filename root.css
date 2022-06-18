@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: regularf1;
+}
+:root {
+    --color-ferrari: #F91536;
+    --color-rbr:     #3671C6;
+    --color-mercedes:#6CD3BF;
+    --color-mclaren: #F58020;
+    --color-alfaromeo:#C92D4B;
+    --color-alpine: #2293D1;
+    --color-haas: #B6BABD;
+    --color-alphatauri: #5E8FAA;
+    --color-astonmartin: #358C75;
+    --color-williams: #37BEDD;
+    --color-equipe: #67676d;
+}
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@font-face {
+  font-family: regularf1;
+  src: url(files/Formula1-Regular_web_0.ttf);
+}
+@font-face {
+  font-family: boldf1;
+  src: url(files/Formula1-Bold_web_0.ttf);
+}
+
+header{
+    padding: 0px 20px;
+    display: flex;
+    background-color: #161616;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: red;
+}
+.left-header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.left-header h1{
+    font-family: boldf1;
+}
+.left-header img{
+    width: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+main{
+    flex: 1;
+    min-height: 100vh;
+    
+}
+
+@media screen and (max-width:1250px){
+    .left-header h1{
+        font-size: 24px;
+    }
+    .nav ul li a {
+
+    }
+}

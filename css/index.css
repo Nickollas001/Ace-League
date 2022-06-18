@@ -1,0 +1,57 @@
+.countdown{
+    color: white;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: space-evenly
+}
+.lin2{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+.img-etapa{
+    padding: 4px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 5px;
+}
+.lin2{
+    border-top: 1px solid;
+    font-family: boldf1;
+    line-height: 46px;
+    font-size: 11px;
+}
+.left-countdown{
+    background-color: black;
+}
+.left-countdown img{
+    width: 60px;
+}
+
+.title-countdown-left{
+    color: gold;
+    padding: 8px 0px 10px 20px;
+    font-size: 12px;
+}
+.right-countdown{
+    background-color: #1f1f27;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin: 10px 0px;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.right-countdown span{
+    color: #949498;;
+}
+.text{font-size: 18px;font-family: boldf1;}
+.rolex-logo-green{
+    height:90px;
+    background-color:white;
+    border-radius: 10px;
+}
