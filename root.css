@@ -63,6 +63,68 @@ main{
     min-height: 100vh;
     
 }
+
+
+/*Header MOB INICIO*/
+
+
+.header-mob{width: 100%;background-color: #161616;display: none;padding: 6px;}
+.header-mob-btn{width: 5%;height: 8%;right: 0;position: absolute;margin: 3px;display: flex;}
+.mobile-menu{width: 100%;height: 100vh;background-color: rgba(255, 2, 2, 0.98);position: absolute;opacity: 0;display: none;}
+.container-mobile{width: 95%;margin: 0% 0% 0% 10%;color: white;display: flex;justify-content: space-evenly;flex-direction: column;}
+.links a{display: block;width: 90%;flex-direction: column;gap: 20px;margin-top: 30px;}
+.links-mob a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    border-radius: 6px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+}
+.redes-footer-mob{width: 90%;display: flex;font-size: 10px;justify-content: space-between;padding: 5px;border-bottom:1px solid #ffffff ;}
+.rede-footer-mob a{width: 30px;height: 30px;}
+.rede-footer-mob img{width: 30px;height: 30px;border:1px solid #ffffff ;margin-left: 10px;padding: 5px;}
+.show-menu{opacity: 1;transition: 1s;display: flex;}
+
+
+.container-menu-mob {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+
+  .logo-mob{width: 40px;height: 40px;margin: 0 auto;}
+  .logo-mob img{width: 40px;height: 40px;}
+
+/*Header MOB FIM*/
+
+
+
+
 /*MEDIA HEADER INICIO*/
 @media screen and (max-width:1250px){
     .left-header h1{
@@ -105,6 +167,14 @@ main{
     }
     .left-header img {
         width: 45px;
+    }
+}
+@media screen and (max-width:768px){
+    header{
+        display: none;
+    }
+    .mobile-menu,.header-mob{
+        display: flex;
     }
 }
 

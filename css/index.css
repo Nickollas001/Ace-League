@@ -129,32 +129,4 @@
         flex-wrap: wrap;
     }
 
-    .title-countdown-left {
-        padding: 8px 0px 10px 20px;
-        font-size: 7px;
-    }
-    .lin2{ 
-        font-size: 7px;
-        padding: 4px;
-    }
-    .left-countdown img{
-        width: 45px;
-    }
-    .text{
-        font-size: 12px;
-    }
-    .right-countdown span{
-        font-size: 10px;
-    }
-    .rolex-logo-green{
-        height:65px;
-        border-radius: 10px;
-    }
-    .right-countdown{
-        border-radius: 20px;
-        padding-left: 10px;
-        margin: 10px 0px;
-        gap: 20px;
-        height: 65px;
-    }
 }

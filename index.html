@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="left-header">
-            <img src="./img/ace-league-ico.png" alt="">
+            <img id="logo" src="./img/ace-league-ico.png" alt="">
             <h1>Ace League</h1>
         </div>
         <nav>
@@ -28,6 +28,31 @@
         </nav>
     </header>
     <main>
+        <!---header-mob-inicio-->
+        <div class="header-mob">
+            <div class="container-menu-mob" id="container-menu-mob" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <img class="logo-mob" src="img/ace-league-ico.png" alt="">
+        </div>
+        <div class="mobile-menu">
+            <div class="container-mobile">
+                <div class="links">
+                    <nav class="links-mob">
+                        <a href="index.html">Inicio</a>
+                        <a href="#">Campeonatos</a>
+                        <a href="#">Hall da Fama</a>
+                        <a href="#">Seja Parceiro</a>
+                        <a href="#">Melhores Momentos</a>
+                        <a href="#">Envie sua HotLap</a>
+                        <a href="#">Sobre</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    <!---header-mob-Fim-->
         <div class="countdown">
             <div class="left-countdown">
                 <div class="title-countdown-left">
@@ -97,5 +122,6 @@ function formatTime(time){
 countdown();
 setInterval(countdown,1000);
     </script>
+    <script src="root.js"></script>
 </body>
 </html>
