@@ -173,7 +173,7 @@ main{
     header{
         display: none;
     }
-    .mobile-menu,.header-mob{
+    .header-mob{
         display: flex;
     }
 }
