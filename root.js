@@ -16,3 +16,13 @@ function myFunction(x) {
 document.getElementById("logo").addEventListener('click', () => {
     window.location = 'index.html'
   })
+
+let parceiros = document.getElementById("parceiros");
+let icone = document.getElementById("icone");
+
+parceiros.addEventListener("mouseover",function(){
+    icone.style.color = "red";
+});
+parceiros.addEventListener("mouseout",function(){
+    icone.style.color = "";
+});
