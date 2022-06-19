@@ -2,7 +2,7 @@ let brawn = document.getElementById("brawn");
 let brawnFoto = document.getElementById("brawn-img");
 
 brawn.addEventListener("mouseover",function(){
-    this.style.height = "310px"
+    this.style.height = "310vh"
     brawnFoto.style.height = "260px"
 })
 brawn.addEventListener("mouseout",function(){
