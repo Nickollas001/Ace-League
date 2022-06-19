@@ -1,0 +1,40 @@
+.container{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.campeonato{
+    height: 270px;
+    animation-duration: 1s;
+    transition: 1s;
+}
+.campeonato-cima{
+    height: 220px;
+}
+.campeonato-cima img{
+    height: 220px;
+    animation-duration: 1s;
+    transition: 1s;
+}
+
+@media screen and (max-width:950px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:410px){
+    .campeonato{
+        height: 220px;
+        animation-duration: 1s;
+        transition: 1s;
+    }
+    .campeonato-cima{
+        height: 170px;
+    }
+    .campeonato-cima img{
+        height: 170px;
+        animation-duration: 1s;
+        transition: 1s;
+    }
+}
