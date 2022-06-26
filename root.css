@@ -86,7 +86,7 @@ main{
 .redes-footer-mob{width: 90%;display: flex;font-size: 10px;justify-content: space-between;padding: 5px;border-bottom:1px solid #ffffff ;}
 .rede-footer-mob a{width: 30px;height: 30px;}
 .rede-footer-mob img{width: 30px;height: 30px;border:1px solid #ffffff ;margin-left: 10px;padding: 5px;}
-.show-menu{opacity: 1;transition: 1s;display: flex;}
+.show-menu{opacity: 1;transition: 1s;display: flex;z-index:2;}
 
 
 .container-menu-mob {
