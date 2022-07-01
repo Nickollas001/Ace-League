@@ -43,3 +43,12 @@ celular.addListener(changeSize);
 changeSize(celular);
 celular2.addListener(changeSize2);
 changeSize2(celular2);
+
+document.getElementById("logo").addEventListener('click', () => {
+    window.location = 'index.html'
+  })
+
+
+cupFoto.addEventListener('click', () => {
+    window.location = '../cup.html'
+})

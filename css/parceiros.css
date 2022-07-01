@@ -1,0 +1,60 @@
+main{
+    width: 100%;
+    background: red;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+input,select,textarea{
+    border: 2px solid#cfcfcf;
+    border-radius: 10px;
+    padding: 6px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.container{
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+.formulario{
+    width: 400px;
+    
+    
+}
+label{margin-left: 3px;padding: 5px;font-family: boldf1;}
+#increver-se{
+    background-color: red;
+    border: 2px solid red;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px;
+}
+
+.header-form h1{
+    font-family:boldf1;
+    font-size:20px;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+
+    
+}
+
+@media screen and (max-width:450px){
+    .formulario{
+        width: 100%;
+    }
+    .header-form h1{        
+        font-size: 17px;
+        padding: 8px;
+    }
+    
+}
+button:hover{
+    cursor: pointer;
+}
