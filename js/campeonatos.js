@@ -59,3 +59,7 @@ document.getElementById("logo").addEventListener('click', () => {
 cupFoto.addEventListener('click', () => {
     window.location = 'cup.html'
 })
+
+brawnFoto.addEventListener('click',() => {
+    window.location = 'brawn.html'
+})
