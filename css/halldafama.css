@@ -94,3 +94,16 @@ table{
     width: 100%;
    }
 }
+
+.nomes{
+    line-height: 26px;
+}
+.titulos h1{
+    color: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px;
+    font-size: 22px;
+    font-family: boldf1;
+}
