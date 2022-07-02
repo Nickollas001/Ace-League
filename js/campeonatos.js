@@ -57,5 +57,5 @@ document.getElementById("logo").addEventListener('click', () => {
 
 
 cupFoto.addEventListener('click', () => {
-    window.location = '../cup.html'
+    window.location = 'cup.html'
 })
