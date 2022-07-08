@@ -56,7 +56,7 @@
         </div>
     <!---header-mob-Fim-->
         <div class="countdown">
-            <div class="left-countdown">
+            <div class="left-countdown" id="leftcountdown">
                 <div class="title-countdown-left">
                     <h2> Ace League Manager</h2>
                 </div>
@@ -65,7 +65,7 @@
                     <h1>Circuit Paul Ricard - FRANÇA</h1>
                 </div>
             </div><!---left-count-down--->
-            <div class="right-countdown">
+            <div class="right-countdown" id="rightcountdown">
                 <div class="countdown-el days">
                     <p class="text" id="days">0</p>
                     <span>Dias</span>
@@ -85,6 +85,39 @@
                 <div>
                     <p><img class="rolex-logo-green" src="img/rolex-logo-green.png" alt=""></p>  
                 </div>
+            </div>      
+            <div class="left-countdown" id="leftcountdown2">
+                <div class="title-countdown-left">
+                    <h2> Copa Ace Season 2</h2>
+                </div>
+                <div class="lin2">
+                    <img class="img-etapa" src="img/hungria.png" alt="">
+                    <h1>Circuito: Hungaroring - Hungria</h1>
+                </div>
+            </div><!---left-count-down--->
+            <div class="right-countdown" id="rightcountdown2">
+                <div class="countdown-el days">
+                    <p class="text" id="days2">0</p>
+                    <span>Dias</span>
+                </div>
+                <div class="countdown-el hours">
+                    <p class="text" id="hours2">00</p>
+                    <span>Horas</span>
+                </div>
+                <div class="countdown-el mins">
+                    <p class="text" id="mins2">00</p>
+                    <span>Minutos</span>
+                </div>
+                <div class="countdown-el seconds">
+                    <p class="text" id="seconds2">00</p>
+                    <span>Segundos</span>
+                </div>
+                <div>
+                    <p><img class="rolex-logo-green" src="img/rolex-logo-green.png" alt=""></p>  
+                </div>
+            </div>      
+            <div class="button">
+                <span id="buttonCountdown">></span>
             </div>
         </div><!---countdown--->
         <div class="videoo">
@@ -104,36 +137,7 @@
             <a target="_blank" href="https://www.instagram.com/rockandroadleague/"><img src="img/rockleague-logo.jpg" alt=""></a>
         </div>
     </footer>
-    <script>
-const daysEl = document.getElementById("days");
-const hoursEl = document.getElementById("hours");
-const minsEl = document.getElementById("mins");
-const secondsEl = document.getElementById("seconds");
-
-const nextRacing = "24 Jul 2022 21:30:00 GMT-0300";
-
-function countdown(){
-    const nextRacingDate = new Date(nextRacing);
-    const currentDate = new Date();
-
-    const totalSeconds = (nextRacingDate - currentDate) / 1000;
-
-    const days = Math.floor(totalSeconds / 3600 /24);
-    const hours = Math.floor(totalSeconds / 3600) %24;
-    const mins = Math.floor(totalSeconds /60) %60;
-    const seconds = Math.floor(totalSeconds) %60;
-    
-    daysEl.innerHTML = days;
-    hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);
-}
-function formatTime(time){
-    return time < 10 ? `0${time}` :time;
-}
-countdown();
-setInterval(countdown,1000);
-    </script>
     <script src="root.js"></script>
+    <script src="js/countdown.js"></script>
 </body>
 </html>

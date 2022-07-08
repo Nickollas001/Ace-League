@@ -130,3 +130,29 @@
     }
 
 }
+.button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    transition: 0.4s;
+}
+.button:hover{
+    color: red;
+    cursor: pointer;
+}
+#rightcountdown2,#leftcountdown2{
+    display: none;
+}
+
+.hide-block{
+    display: block!important; 
+}
+.hide-flex{
+    display: flex!important; 
+}
+.off{
+    display: none; 
+}
+
